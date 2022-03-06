@@ -8,13 +8,17 @@
 import SwiftUI
 
 struct ContentView: View {
+    
+    @State
+    private var isNight = false
+    
     var body: some View {
         ZStack {
-            BackGroundView(topColor: .blue, bottomColor: Color("lightBlue"))
+            BackGroundView(isNight: $isNight)
             VStack {
                 CityTextView(cityName: "Cupertino, CA")
                 
-                MainWeatherStatusView(imageName: "cloud.sun.fill", temperature: 14)
+                MainWeatherStatusView(imageName: isNight ? "moon.stars.fill" : "cloud.sun.fill", temperature: 14)
                 .padding(.bottom, 40)
                 HStack(spacing: 20) {
                     WeatherDayView(dayOfWeek: "TUE",
@@ -38,6 +42,7 @@ struct ContentView: View {
                 Button {
                     //Action Button Does
                     print("tapped")
+                    isNight.toggle()
                 } label: {
                     WeatherButtonText(title: "Change Day Time",
                                       textColor: .blue,
@@ -84,11 +89,12 @@ struct WeatherDayView: View {
 
 struct BackGroundView: View {
     
-    var topColor: Color
-    var bottomColor: Color
+    @Binding
+    var isNight: Bool
     
     var body: some View {
-        LinearGradient(gradient: Gradient(colors: [topColor, bottomColor]),
+        LinearGradient(gradient: Gradient(colors: [isNight ? .black : .blue,
+                                                   isNight ? .gray : Color("lightBlue")]),
                        startPoint: .topLeading,
                        endPoint: .bottomTrailing)
             .edgesIgnoringSafeArea(.all)
@@ -113,7 +119,7 @@ struct MainWeatherStatusView: View {
     
     var body: some View {
         VStack(spacing: 10) {
-            Image(systemName: "cloud.sun.fill")
+            Image(systemName: imageName)
                 .renderingMode(.original)
                 .resizable()
                 .aspectRatio(contentMode: .fit)
