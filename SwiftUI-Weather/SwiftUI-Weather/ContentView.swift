@@ -47,7 +47,6 @@ struct ContentView: View {
                     WeatherButtonText(title: "Change Day Time",
                                       textColor: .blue,
                                       backgroundColor: .white)
-                    
                 }
                 
                 //Spacer is one of view. have trouble if use too much
