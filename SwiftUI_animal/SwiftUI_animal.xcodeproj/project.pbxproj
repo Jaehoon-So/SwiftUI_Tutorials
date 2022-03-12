@@ -7,34 +7,22 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		BB438BD827D86D3000B6E922 /* SwiftUI_practiceApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB438BD727D86D3000B6E922 /* SwiftUI_practiceApp.swift */; };
-		BB438BDA27D86D3000B6E922 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB438BD927D86D3000B6E922 /* ContentView.swift */; };
-		BB438BDC27D86D3000B6E922 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BB438BDB27D86D3000B6E922 /* Assets.xcassets */; };
-		BB438BDF27D86D3000B6E922 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BB438BDE27D86D3000B6E922 /* Preview Assets.xcassets */; };
-		BB438BE627D86D4900B6E922 /* MyProjectCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB438BE527D86D4900B6E922 /* MyProjectCard.swift */; };
-		BB438BE827D871B900B6E922 /* MyBasicCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB438BE727D871B900B6E922 /* MyBasicCard.swift */; };
-		BB438BEA27D886BE00B6E922 /* MyCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB438BE927D886BE00B6E922 /* MyCard.swift */; };
-		BB438BEC27DA537300B6E922 /* MyList.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB438BEB27DA537300B6E922 /* MyList.swift */; };
-		BBDAC18527DCD85F0028ED74 /* MyNavigationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBDAC18427DCD85F0028ED74 /* MyNavigationView.swift */; };
-		BBDAC18727DCF5710028ED74 /* MyProfile.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBDAC18627DCF5710028ED74 /* MyProfile.swift */; };
+		BB438BFA27DB1A7A00B6E922 /* SwiftUI_animalApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB438BF927DB1A7A00B6E922 /* SwiftUI_animalApp.swift */; };
+		BB438BFC27DB1A7A00B6E922 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB438BFB27DB1A7A00B6E922 /* ContentView.swift */; };
+		BB438BFE27DB1A7A00B6E922 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BB438BFD27DB1A7A00B6E922 /* Assets.xcassets */; };
+		BB438C0127DB1A7A00B6E922 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BB438C0027DB1A7A00B6E922 /* Preview Assets.xcassets */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		BB438BD427D86D3000B6E922 /* SwiftUI_practice.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftUI_practice.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		BB438BD727D86D3000B6E922 /* SwiftUI_practiceApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUI_practiceApp.swift; sourceTree = "<group>"; };
-		BB438BD927D86D3000B6E922 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
-		BB438BDB27D86D3000B6E922 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		BB438BDE27D86D3000B6E922 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
-		BB438BE527D86D4900B6E922 /* MyProjectCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyProjectCard.swift; sourceTree = "<group>"; };
-		BB438BE727D871B900B6E922 /* MyBasicCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyBasicCard.swift; sourceTree = "<group>"; };
-		BB438BE927D886BE00B6E922 /* MyCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyCard.swift; sourceTree = "<group>"; };
-		BB438BEB27DA537300B6E922 /* MyList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyList.swift; sourceTree = "<group>"; };
-		BBDAC18427DCD85F0028ED74 /* MyNavigationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyNavigationView.swift; sourceTree = "<group>"; };
-		BBDAC18627DCF5710028ED74 /* MyProfile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyProfile.swift; sourceTree = "<group>"; };
+		BB438BF627DB1A7A00B6E922 /* SwiftUI_animal.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftUI_animal.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		BB438BF927DB1A7A00B6E922 /* SwiftUI_animalApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUI_animalApp.swift; sourceTree = "<group>"; };
+		BB438BFB27DB1A7A00B6E922 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		BB438BFD27DB1A7A00B6E922 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		BB438C0027DB1A7A00B6E922 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		BB438BD127D86D3000B6E922 /* Frameworks */ = {
+		BB438BF327DB1A7A00B6E922 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -44,43 +32,37 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		BB438BCB27D86D3000B6E922 = {
+		BB438BED27DB1A7A00B6E922 = {
 			isa = PBXGroup;
 			children = (
-				BB438BD627D86D3000B6E922 /* SwiftUI_practice */,
-				BB438BD527D86D3000B6E922 /* Products */,
+				BB438BF827DB1A7A00B6E922 /* SwiftUI_animal */,
+				BB438BF727DB1A7A00B6E922 /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		BB438BD527D86D3000B6E922 /* Products */ = {
+		BB438BF727DB1A7A00B6E922 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				BB438BD427D86D3000B6E922 /* SwiftUI_practice.app */,
+				BB438BF627DB1A7A00B6E922 /* SwiftUI_animal.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		BB438BD627D86D3000B6E922 /* SwiftUI_practice */ = {
+		BB438BF827DB1A7A00B6E922 /* SwiftUI_animal */ = {
 			isa = PBXGroup;
 			children = (
-				BB438BD727D86D3000B6E922 /* SwiftUI_practiceApp.swift */,
-				BB438BD927D86D3000B6E922 /* ContentView.swift */,
-				BBDAC18427DCD85F0028ED74 /* MyNavigationView.swift */,
-				BB438BE527D86D4900B6E922 /* MyProjectCard.swift */,
-				BBDAC18627DCF5710028ED74 /* MyProfile.swift */,
-				BB438BE727D871B900B6E922 /* MyBasicCard.swift */,
-				BB438BE927D886BE00B6E922 /* MyCard.swift */,
-				BB438BDB27D86D3000B6E922 /* Assets.xcassets */,
-				BB438BDD27D86D3000B6E922 /* Preview Content */,
-				BB438BEB27DA537300B6E922 /* MyList.swift */,
+				BB438BF927DB1A7A00B6E922 /* SwiftUI_animalApp.swift */,
+				BB438BFB27DB1A7A00B6E922 /* ContentView.swift */,
+				BB438BFD27DB1A7A00B6E922 /* Assets.xcassets */,
+				BB438BFF27DB1A7A00B6E922 /* Preview Content */,
 			);
-			path = SwiftUI_practice;
+			path = SwiftUI_animal;
 			sourceTree = "<group>";
 		};
-		BB438BDD27D86D3000B6E922 /* Preview Content */ = {
+		BB438BFF27DB1A7A00B6E922 /* Preview Content */ = {
 			isa = PBXGroup;
 			children = (
-				BB438BDE27D86D3000B6E922 /* Preview Assets.xcassets */,
+				BB438C0027DB1A7A00B6E922 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
 			sourceTree = "<group>";
@@ -88,39 +70,39 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		BB438BD327D86D3000B6E922 /* SwiftUI_practice */ = {
+		BB438BF527DB1A7A00B6E922 /* SwiftUI_animal */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = BB438BE227D86D3000B6E922 /* Build configuration list for PBXNativeTarget "SwiftUI_practice" */;
+			buildConfigurationList = BB438C0427DB1A7A00B6E922 /* Build configuration list for PBXNativeTarget "SwiftUI_animal" */;
 			buildPhases = (
-				BB438BD027D86D3000B6E922 /* Sources */,
-				BB438BD127D86D3000B6E922 /* Frameworks */,
-				BB438BD227D86D3000B6E922 /* Resources */,
+				BB438BF227DB1A7A00B6E922 /* Sources */,
+				BB438BF327DB1A7A00B6E922 /* Frameworks */,
+				BB438BF427DB1A7A00B6E922 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = SwiftUI_practice;
-			productName = SwiftUI_practice;
-			productReference = BB438BD427D86D3000B6E922 /* SwiftUI_practice.app */;
+			name = SwiftUI_animal;
+			productName = SwiftUI_animal;
+			productReference = BB438BF627DB1A7A00B6E922 /* SwiftUI_animal.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		BB438BCC27D86D3000B6E922 /* Project object */ = {
+		BB438BEE27DB1A7A00B6E922 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
 				LastSwiftUpdateCheck = 1320;
 				LastUpgradeCheck = 1320;
 				TargetAttributes = {
-					BB438BD327D86D3000B6E922 = {
+					BB438BF527DB1A7A00B6E922 = {
 						CreatedOnToolsVersion = 13.2.1;
 					};
 				};
 			};
-			buildConfigurationList = BB438BCF27D86D3000B6E922 /* Build configuration list for PBXProject "SwiftUI_practice" */;
+			buildConfigurationList = BB438BF127DB1A7A00B6E922 /* Build configuration list for PBXProject "SwiftUI_animal" */;
 			compatibilityVersion = "Xcode 13.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -128,48 +110,42 @@
 				en,
 				Base,
 			);
-			mainGroup = BB438BCB27D86D3000B6E922;
-			productRefGroup = BB438BD527D86D3000B6E922 /* Products */;
+			mainGroup = BB438BED27DB1A7A00B6E922;
+			productRefGroup = BB438BF727DB1A7A00B6E922 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				BB438BD327D86D3000B6E922 /* SwiftUI_practice */,
+				BB438BF527DB1A7A00B6E922 /* SwiftUI_animal */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		BB438BD227D86D3000B6E922 /* Resources */ = {
+		BB438BF427DB1A7A00B6E922 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BB438BDF27D86D3000B6E922 /* Preview Assets.xcassets in Resources */,
-				BB438BDC27D86D3000B6E922 /* Assets.xcassets in Resources */,
+				BB438C0127DB1A7A00B6E922 /* Preview Assets.xcassets in Resources */,
+				BB438BFE27DB1A7A00B6E922 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		BB438BD027D86D3000B6E922 /* Sources */ = {
+		BB438BF227DB1A7A00B6E922 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BB438BE627D86D4900B6E922 /* MyProjectCard.swift in Sources */,
-				BBDAC18727DCF5710028ED74 /* MyProfile.swift in Sources */,
-				BB438BDA27D86D3000B6E922 /* ContentView.swift in Sources */,
-				BB438BE827D871B900B6E922 /* MyBasicCard.swift in Sources */,
-				BB438BEA27D886BE00B6E922 /* MyCard.swift in Sources */,
-				BB438BD827D86D3000B6E922 /* SwiftUI_practiceApp.swift in Sources */,
-				BB438BEC27DA537300B6E922 /* MyList.swift in Sources */,
-				BBDAC18527DCD85F0028ED74 /* MyNavigationView.swift in Sources */,
+				BB438BFC27DB1A7A00B6E922 /* ContentView.swift in Sources */,
+				BB438BFA27DB1A7A00B6E922 /* SwiftUI_animalApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin XCBuildConfiguration section */
-		BB438BE027D86D3000B6E922 /* Debug */ = {
+		BB438C0227DB1A7A00B6E922 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -230,7 +206,7 @@
 			};
 			name = Debug;
 		};
-		BB438BE127D86D3000B6E922 /* Release */ = {
+		BB438C0327DB1A7A00B6E922 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -285,14 +261,14 @@
 			};
 			name = Release;
 		};
-		BB438BE327D86D3000B6E922 /* Debug */ = {
+		BB438C0527DB1A7A00B6E922 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"SwiftUI_practice/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"SwiftUI_animal/Preview Content\"";
 				DEVELOPMENT_TEAM = 92B5D498S7;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
@@ -306,7 +282,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "co.januaryOne.SwiftUI-practice";
+				PRODUCT_BUNDLE_IDENTIFIER = "co.januaryOne.SwiftUI-animal";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -314,14 +290,14 @@
 			};
 			name = Debug;
 		};
-		BB438BE427D86D3000B6E922 /* Release */ = {
+		BB438C0627DB1A7A00B6E922 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"SwiftUI_practice/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"SwiftUI_animal/Preview Content\"";
 				DEVELOPMENT_TEAM = 92B5D498S7;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
@@ -335,7 +311,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "co.januaryOne.SwiftUI-practice";
+				PRODUCT_BUNDLE_IDENTIFIER = "co.januaryOne.SwiftUI-animal";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -346,25 +322,25 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		BB438BCF27D86D3000B6E922 /* Build configuration list for PBXProject "SwiftUI_practice" */ = {
+		BB438BF127DB1A7A00B6E922 /* Build configuration list for PBXProject "SwiftUI_animal" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				BB438BE027D86D3000B6E922 /* Debug */,
-				BB438BE127D86D3000B6E922 /* Release */,
+				BB438C0227DB1A7A00B6E922 /* Debug */,
+				BB438C0327DB1A7A00B6E922 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		BB438BE227D86D3000B6E922 /* Build configuration list for PBXNativeTarget "SwiftUI_practice" */ = {
+		BB438C0427DB1A7A00B6E922 /* Build configuration list for PBXNativeTarget "SwiftUI_animal" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				BB438BE327D86D3000B6E922 /* Debug */,
-				BB438BE427D86D3000B6E922 /* Release */,
+				BB438C0527DB1A7A00B6E922 /* Debug */,
+				BB438C0627DB1A7A00B6E922 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = BB438BCC27D86D3000B6E922 /* Project object */;
+	rootObject = BB438BEE27DB1A7A00B6E922 /* Project object */;
 }
