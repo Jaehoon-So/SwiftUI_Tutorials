@@ -17,6 +17,8 @@
 		BB438BEC27DA537300B6E922 /* MyList.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB438BEB27DA537300B6E922 /* MyList.swift */; };
 		BBDAC18527DCD85F0028ED74 /* MyNavigationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBDAC18427DCD85F0028ED74 /* MyNavigationView.swift */; };
 		BBDAC18727DCF5710028ED74 /* MyProfile.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBDAC18627DCF5710028ED74 /* MyProfile.swift */; };
+		BBDAC18927DD115B0028ED74 /* MyGeometryBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBDAC18827DD115B0028ED74 /* MyGeometryBuilder.swift */; };
+		BBDAC18B27DD198C0028ED74 /* MyVerticalGeoMetryBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBDAC18A27DD198C0028ED74 /* MyVerticalGeoMetryBuilder.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -31,6 +33,8 @@
 		BB438BEB27DA537300B6E922 /* MyList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyList.swift; sourceTree = "<group>"; };
 		BBDAC18427DCD85F0028ED74 /* MyNavigationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyNavigationView.swift; sourceTree = "<group>"; };
 		BBDAC18627DCF5710028ED74 /* MyProfile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyProfile.swift; sourceTree = "<group>"; };
+		BBDAC18827DD115B0028ED74 /* MyGeometryBuilder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyGeometryBuilder.swift; sourceTree = "<group>"; };
+		BBDAC18A27DD198C0028ED74 /* MyVerticalGeoMetryBuilder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyVerticalGeoMetryBuilder.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -68,11 +72,13 @@
 				BBDAC18427DCD85F0028ED74 /* MyNavigationView.swift */,
 				BB438BE527D86D4900B6E922 /* MyProjectCard.swift */,
 				BBDAC18627DCF5710028ED74 /* MyProfile.swift */,
+				BBDAC18827DD115B0028ED74 /* MyGeometryBuilder.swift */,
+				BBDAC18A27DD198C0028ED74 /* MyVerticalGeoMetryBuilder.swift */,
 				BB438BE727D871B900B6E922 /* MyBasicCard.swift */,
 				BB438BE927D886BE00B6E922 /* MyCard.swift */,
+				BB438BEB27DA537300B6E922 /* MyList.swift */,
 				BB438BDB27D86D3000B6E922 /* Assets.xcassets */,
 				BB438BDD27D86D3000B6E922 /* Preview Content */,
-				BB438BEB27DA537300B6E922 /* MyList.swift */,
 			);
 			path = SwiftUI_practice;
 			sourceTree = "<group>";
@@ -158,6 +164,8 @@
 				BB438BE627D86D4900B6E922 /* MyProjectCard.swift in Sources */,
 				BBDAC18727DCF5710028ED74 /* MyProfile.swift in Sources */,
 				BB438BDA27D86D3000B6E922 /* ContentView.swift in Sources */,
+				BBDAC18B27DD198C0028ED74 /* MyVerticalGeoMetryBuilder.swift in Sources */,
+				BBDAC18927DD115B0028ED74 /* MyGeometryBuilder.swift in Sources */,
 				BB438BE827D871B900B6E922 /* MyBasicCard.swift in Sources */,
 				BB438BEA27D886BE00B6E922 /* MyCard.swift in Sources */,
 				BB438BD827D86D3000B6E922 /* SwiftUI_practiceApp.swift in Sources */,
