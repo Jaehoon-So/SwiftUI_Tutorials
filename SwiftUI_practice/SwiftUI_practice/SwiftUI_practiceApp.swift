@@ -13,5 +13,7 @@ struct SwiftUI_practiceApp: App {
         WindowGroup {
             ContentView()
         }
+        
+        
     }
 }
