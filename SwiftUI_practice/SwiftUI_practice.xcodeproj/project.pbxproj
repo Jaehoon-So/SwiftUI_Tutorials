@@ -21,6 +21,7 @@
 		BBDAC18B27DD198C0028ED74 /* MyVerticalGeoMetryBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBDAC18A27DD198C0028ED74 /* MyVerticalGeoMetryBuilder.swift */; };
 		BBDAC18F27DE687C0028ED74 /* MyTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBDAC18E27DE687C0028ED74 /* MyTabView.swift */; };
 		BBDAC19127DE69950028ED74 /* MyView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBDAC19027DE69950028ED74 /* MyView.swift */; };
+		BBFFAE0027E3923A0051F2EC /* MyCustomeTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBFFADFF27E3923A0051F2EC /* MyCustomeTabView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -39,6 +40,7 @@
 		BBDAC18A27DD198C0028ED74 /* MyVerticalGeoMetryBuilder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyVerticalGeoMetryBuilder.swift; sourceTree = "<group>"; };
 		BBDAC18E27DE687C0028ED74 /* MyTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyTabView.swift; sourceTree = "<group>"; };
 		BBDAC19027DE69950028ED74 /* MyView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyView.swift; sourceTree = "<group>"; };
+		BBFFADFF27E3923A0051F2EC /* MyCustomeTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyCustomeTabView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,6 +83,7 @@
 				BB438BEB27DA537300B6E922 /* MyList.swift */,
 				BBDAC18C27DE684E0028ED74 /* Geometry */,
 				BBDAC18D27DE68680028ED74 /* TabBar */,
+				BBFFADFE27E392290051F2EC /* Custom Tab View */,
 				BB438BDB27D86D3000B6E922 /* Assets.xcassets */,
 				BB438BDD27D86D3000B6E922 /* Preview Content */,
 			);
@@ -111,6 +114,14 @@
 				BBDAC19027DE69950028ED74 /* MyView.swift */,
 			);
 			path = TabBar;
+			sourceTree = "<group>";
+		};
+		BBFFADFE27E392290051F2EC /* Custom Tab View */ = {
+			isa = PBXGroup;
+			children = (
+				BBFFADFF27E3923A0051F2EC /* MyCustomeTabView.swift */,
+			);
+			path = "Custom Tab View";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -187,6 +198,7 @@
 				BB438BE627D86D4900B6E922 /* MyProjectCard.swift in Sources */,
 				BBDAC18F27DE687C0028ED74 /* MyTabView.swift in Sources */,
 				BBDAC18727DCF5710028ED74 /* MyProfile.swift in Sources */,
+				BBFFAE0027E3923A0051F2EC /* MyCustomeTabView.swift in Sources */,
 				BB438BDA27D86D3000B6E922 /* ContentView.swift in Sources */,
 				BBDAC18B27DD198C0028ED74 /* MyVerticalGeoMetryBuilder.swift in Sources */,
 				BBDAC18927DD115B0028ED74 /* MyGeometryBuilder.swift in Sources */,

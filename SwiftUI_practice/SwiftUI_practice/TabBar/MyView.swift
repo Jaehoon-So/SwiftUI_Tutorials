@@ -20,6 +20,7 @@ struct MyView: View {
                 .fontWeight(.black)
                 .foregroundColor(.white)
         } // ZStack
+        .animation(.none)
     }
 }
 

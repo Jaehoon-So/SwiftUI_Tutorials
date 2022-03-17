@@ -15,6 +15,7 @@ struct MyTabView: View {
                 .tabItem {
                     Image(systemName: "airplane")
                     Text("1번")
+                        
                 }
                 .tag(0)
                 .padding(.bottom, 1)
@@ -35,6 +36,7 @@ struct MyTabView: View {
                 .padding(.bottom, 1)
         } // TabView
         .background(Color.gray)
+        
         
     }
 }
